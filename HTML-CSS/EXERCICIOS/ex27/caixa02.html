@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgba(128, 113, 143, 0.596);
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(179, 131, 224);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(158, 116, 187);
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(75, 14, 133);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        main {
+            background-color: rgb(179, 131, 224);
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: rgba(194, 175, 212, 0.596);
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(158, 116, 187);
+        }
+        footer {
+            background-color: rgb(103, 69, 134);
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+         </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+                <p> Esportes Politica Tecnologia</p>
+        </section>
+        <section id="Notícias">
+            <article>
+                <h2>Notícia sobre o Brasil.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere perferendis libero possimus illo sit earum, obcaecati sapiente! Voluptate voluptates, illo necessitatibus error dolor fuga consequuntur aperiam fugit dolorum molestias maiores?</p>
+            <aside>
+                <p>Artigo escrito por José de Alencar</p>
+            </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Thamiris</p>
+    </footer>
+</body>
+</html>
