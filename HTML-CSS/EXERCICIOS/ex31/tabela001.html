@@ -12,13 +12,14 @@
 
         table { 
             width: 400px;
-            border-collapse: collapse;          /*border collapse é se quero junto ou se quero separar as linhas*/
-            border: 5px solid black;
+            height: 400PX;
+            border-collapse: collapse;          /*border collapse =  se quero junto ou se quero separar as linhas*/
+            border: 1px solid black;
         }
 
         tr {             /*TR É LINHA*/
             background-color: aquamarine;
-            border: 5px solid black;
+            border: 1px solid black;
         }
 
         tr.linha {
@@ -26,13 +27,20 @@
         }
 
         td {            /*TD É DADOS*/
-            border: 5px solid black;
-            padding: 10px;
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;                             /*ALINHAMENTO HORIZONTAL*/
+            vertical-align: middle;  /*TOP MIDDLE BOTTOM*/  /*ALINHAMENTO VERTICAL*/
         }
 
         td.dado {
             background-color: azure;
         }
+
+        .numero {
+            text-align: right;
+        }
+
     </style>
 </head>
 <body>
