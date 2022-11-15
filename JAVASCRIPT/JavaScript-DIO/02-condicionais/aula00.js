@@ -2,7 +2,7 @@
 const numero = 3;
 const numeroPar = (numero % 2) === 0;  
 console.log(numeroPar); 
-// = é atribuição == igualdade === igualdade para comparar//
+// = é atribuição == igualdade === igualdade para comparar IS= É?//   
 
 if (numeroPar) {                                           //if=SE//
     console.log('Par');
