@@ -1,10 +1,12 @@
 class Pessoa {                                               
     nome;                                                   
     idade;
+    anoDeNascimento;
 
     constructor(nome, idade) {
         this.nome = nome;
         this.idade = idade;
+        this.anoDeNascimento = 2022 - idade;
     }
 
 
@@ -18,5 +20,4 @@ const dyanara = new Pessoa('Dyanara', 24);
     
 
 
-thamiris.descrever();
-dyanara.descrever();    
+console.log(thamiris) 
