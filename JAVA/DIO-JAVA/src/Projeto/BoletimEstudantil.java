@@ -1,3 +1,4 @@
+package Projeto;
 public class BoletimEstudantil {
     public static void main(String[] args) {
         int mediaFinal = 6;
@@ -10,7 +11,9 @@ public class BoletimEstudantil {
     }
 }
 
-//Uma variavel deve ser clara, sem abreviações ou definição sem sentido;
-//Uma variavel é sempre no singular, exceto quando se referir a um array ou coleção;
-//Idioma unico.
-// [] significa mais opções
+/*
+Uma variavel deve ser clara, sem abreviações ou definição sem sentido;
+Uma variavel é sempre no singular, exceto quando se referir a um array ou coleção;
+Idioma unico.
+[] significa mais opções
+*/ 

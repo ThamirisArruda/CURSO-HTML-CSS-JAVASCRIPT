@@ -1,3 +1,4 @@
+package Classes;
 public class MinhaClasse {
     public static void main (String [] args) {
         String primeiroNome = "Thamiris";
@@ -13,15 +14,17 @@ public class MinhaClasse {
     }
 }
 
-//Variaveis
-// Os unicos simbolos permitidos são _ &
-//Uma variavel não pode começar com numero
-//Não pode ter espaço no nome da variavel
-//Log faz parte das palavras reservadas da lingua
+/*
+Variaveis
+Os unicos simbolos permitidos são _ &
+Uma variavel não pode começar com numero
+Não pode ter espaço no nome da variavel
+Log faz parte das palavras reservadas da lingua
 
-//TIPO      NOMEDEFINIDO  VALOR
-//boolean   verdadeira    true;
+TIPO      NOMEDEFINIDO  VALOR
+boolean   verdadeira    true;
 
-//Metodos
-//TipoRetorno NomeNoInfinitivo Parametros
-//String      FormatarCep      (long cep)
+Metodos
+TipoRetorno NomeNoInfinitivo Parametros
+String      FormatarCep      (long cep)
+*/
